@@ -1,4 +1,4 @@
-package project_331;
+package project_task1;
 
 import java.io.FileWriter;
 import java.io.IOException;
