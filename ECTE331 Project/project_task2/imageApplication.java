@@ -9,9 +9,9 @@ import javax.imageio.ImageIO;
  
 public class imageApplication{
 	public static void main(String[] args) {
-		String fileName1="c:/image/Rain_Tree.jpg";
-		String fileName2="c:/image/Wr.jpg";  
-		
+	String fileName1="C:/Users/Muaadh/Desktop/ECTE331 Project/Rain_Tree.jpg";
+        String fileName2="C:/Users/Muaadh/Desktop/ECTE331 Project/Output.jpg";  
+        
 		colourImage ImgStruct= new colourImage();
         // read the image filename1 and store its dimension and pixel values in ImgStruct			
 		imageReadWrite.readJpgImage(fileName1, ImgStruct);
