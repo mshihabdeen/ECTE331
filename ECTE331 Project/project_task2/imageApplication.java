@@ -1,14 +1,15 @@
-package project2;
+package proj_task2;
 
 import java.util.concurrent.atomic.AtomicIntegerArray;
 
 public class imageApplication {
     
     public static void main(String[] args) {
-        String inputFileName = "C:\Users\Muaadh\Desktop\ECTE331 Project\Rain_Tree.jpg";  // Update path as needed
-        String outputSingleThread = "C:\Users\Muaadh\Desktop\ECTE331 Project\output_single.jpg";
-        String outputMultiShared = "C:\Users\Muaadh\Desktop\ECTE331 Project\output_multi_shared.jpg";
-        String outputMultiSub = "C:\Users\Muaadh\Desktop\ECTE331 Project\output_multi_sub.jpg";
+    	
+        String inputFileName = "C:\\Users\\Muaadh\\Desktop\\ECTE331 Project\\proj_task2\\src\\proj_task2\\Rain_Tree.jpg";
+        String outputSingleThread = "C:\\Users\\Muaadh\\Desktop\\ECTE331 Project\\proj_task2\\src\\proj_task2\\output_single.jpg";
+        String outputMultiShared = "C:\\Users\\Muaadh\\Desktop\\ECTE331 Project\\proj_task2\\src\\proj_task2\\output_multi_shared.jpg";
+        String outputMultiSub = "C:\\Users\\Muaadh\\Desktop\\ECTE331 Project\\proj_task2\\src\\proj_task2\\\\output_multi_sub.jpg";
         
         // Test different numbers of threads
         int[] threadCounts = {2, 4, 8, 16};

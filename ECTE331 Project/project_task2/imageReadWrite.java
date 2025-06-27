@@ -1,4 +1,4 @@
-package project2;  
+package proj_task2;
 
 import java.awt.Color;
 import java.awt.image.BufferedImage;
@@ -15,6 +15,16 @@ class imageReadWrite{
 	            BufferedImage image = ImageIO.read(file);
 	            
 	            System.out.println("file: "+file.getCanonicalPath());
+	            
+	            if (image != null) {
+	                System.out.println("Image loaded successfully!");
+	                // You can now process the 'image' BufferedImage object
+	                // For example, get its width and height:
+	                System.out.println("Width: " + image.getWidth());
+	                System.out.println("Height: " + image.getHeight());
+	            } else {
+	                System.out.println("Could not read the image file.");
+	            }
 	            
 	            // Check if the image is in sRGB color space
 	            if (!image.getColorModel().getColorSpace().isCS_sRGB()) {
